@@ -1,0 +1,43 @@
+.header {
+    background-color: rgb(24, 197, 24);
+}
+
+body {
+    background-image: url(./imagenes/imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo {
+    width: 100px;
+    border-radius: 6px;
+}
+
+.nav-link {
+    font-size: 24px;
+}
+
+
+
+.carousel-item {
+    height: 350px;
+
+}
+
+.carousel-item img {
+    height: 350px;
+}
+
+span {
+    background-color: black;
+}
+
+.footer {
+    background-color: aqua;
+}
+
+
+.footerLogo {
+    width: 10%;
+}
