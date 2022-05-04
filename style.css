@@ -1,6 +1,8 @@
-.header {
-    background-color: rgb(24, 197, 24);
+*{
+    margin: 0%;
+    padding: 0%;
 }
+
 
 body {
     background-image: url(./imagenes/imagenfondo.jpg);
@@ -9,25 +11,50 @@ body {
 }
 
 
+
+.header {
+    background-color: rgb(24, 197, 24);
+}
+
+
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: aliceblue;
+    
+}
+
+
+
+.header {
+    background-image: url(./imagenes/imagenportada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .logo {
     width: 100px;
     border-radius: 6px;
 }
 
-.nav-link {
+
+.nav-link{
     font-size: 24px;
 }
 
 
-
-.carousel-item {
-    height: 350px;
-
+.textoSkate {
+    font-family: 'Shadows Into Light', cursive;
 }
+
+
 
 .carousel-item img {
-    height: 350px;
+    max-height:30rem;
+    background-size: cover;
+    
 }
+
+
 
 span {
     background-color: black;
@@ -35,9 +62,25 @@ span {
 
 .footer {
     background-color: aqua;
+    height: 50px;
+    background-image: url(./imagenes/imagenportada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.galeria {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.card {
+    
 }
 
 
-.footerLogo {
-    width: 10%;
-}
+
+
