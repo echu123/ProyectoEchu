@@ -1,36 +1,10 @@
 /* base */
-@import "../base/variables";
-@import "../scss/components/contacto";
+@import "./base/variables";
+@import "./base/mapas.scss";
+@import "./base/extends";
+@import "./base/mixin";
+@import "./components/contacto";
 
 
 
-/* Ejemplo de SassII ,no aplica a proyecto*/
 
-
-$lista1 : red, green, skate, yellow, blue;
-
-$primario : nth($lista1, 1)
-
-$headings (
-    h1:4em,
-    h2:3em,
-    h3:2em,
-    h4:1em,
-    h5:0.75,
-    h6:0.35
-);
-
-$h1 : map-get ($headings, h1)
-
-h1 {
-    font-size: $h1;
-}
-
-$colores: (
-    $primario: black,
-    $secuandario:white
-
-);
-
-$combinada: map-merge($headings , $colores ) ;
-$otras: map-remove($headings , h1 h2 h3 ) ;

@@ -18,8 +18,13 @@ body {
 
 
 .header {
+    background-image: url(./imagenes/imagenportada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(24, 197, 24);
 }
+
+
 
 .rounded {
     max-width: 80px;
@@ -27,19 +32,6 @@ body {
 
 .form-label {
     color: aliceblue;
-}
-
-
-
-.header {
-    background-image: url(./imagenes/imagenportada.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.logo {
-    width: 100px;
-    border-radius: 6px;
 }
 
 
@@ -60,7 +52,7 @@ body {
 }
 
 .carousel-item img {
-    height: 80vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -95,12 +87,12 @@ span {
 }
 
 
-.separator-ribbon {
+/* .separator-ribbon {
     width: 100%;
     overflow: hidden;
     position: relative ;
     z-index: 2;
-}
+} */
 
 .separator-ribbon .content {
     width: 100%;
@@ -131,21 +123,18 @@ span {
 }
 
 
-.footer {
-    background-color: aqua;
-    height: 50px;
-    background-image: url(./imagenes/imagenportada.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: auto;
+.galeria {
+    width: 100%;
+    height: auto;
 
 }
 
+.galeria .col-lg-4 {
+    padding: 25px;
+}
 
-.galeria {
-    width: 100%;
-    padding: 20px;
-
+.galeria img:hover {
+    border: 2px solid white;
 }
 
 
