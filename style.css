@@ -1,17 +1,15 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 
 body {
     background-image: url(./imagenes/imagenfondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    
+    max-width: 100%;
     
 }
 
@@ -22,6 +20,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(24, 198, 24);
+    max-width: 100%;
 }
 
 
@@ -31,7 +30,7 @@ body {
 }
 
 .form-label {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -47,11 +46,12 @@ body {
 
 
 .carousel-item {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
 }
 
 .carousel-item img {
+    width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,10 +61,7 @@ body {
     color: rgba(0, 0, 0, 0.724);
 }
 
-.row { 
-    display: flex;
-    justify-content: space-between;
-}
+
 
 
 .flex-column .card {
@@ -78,6 +75,7 @@ body {
     background-image: url(./imagenes/skateParkFondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
 }
 
 
@@ -87,12 +85,12 @@ span {
 }
 
 
-/* .separator-ribbon {
+.separator-ribbon {
     width: 100%;
     overflow: hidden;
     position: relative ;
     z-index: 2;
-} */
+}
 
 .separator-ribbon .content {
     width: 100%;
@@ -108,14 +106,12 @@ span {
 
 }
 
-.card-border {
-    border: solid 10px rgb(0, 0, 0);
-    border-radius: 5px;
-    overflow: hidden;
-    transition: all ease-out 0.2s;
-}
+
 .h1 {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    letter-spacing: 10px;
+
 }
 
 .card-border:hover {
@@ -129,6 +125,7 @@ span {
 
 }
 
+
 .galeria .col-lg-4 {
     padding: 25px;
 }
@@ -136,6 +133,31 @@ span {
 .galeria img:hover {
     border: 2px solid white;
 }
+
+.formulario {
+    position: fixed;
+    left: 50px;
+    top: 200px;
+}
+
+.footer {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253, 156, 45, 0.63) 100%);
+}
+
+.info {
+    padding: 150px;
+    color: antiquewhite;
+
+}
+
+.info p {
+    line-height: 30px;
+    text-decoration: wavy;
+    text-indent: 0%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 
 
 
